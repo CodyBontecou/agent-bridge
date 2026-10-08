@@ -1,0 +1,691 @@
+[
+  {
+    "screen_id": "onb_i2v87",
+    "name": "Onboarding Intro",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 2,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#E2F2FF",
+    "colors": ["#E2F2FF", "#C1E5FE", "#88C8F8", "#222224", "#000000"],
+    "ui_elements": [
+      "Bold Stacked Heading",
+      "Sleep Mascot Graphic",
+      "Blocked App Mockup",
+      "Rounded Black CTA",
+      "Blue Gradient Backdrop"
+    ],
+    "app": {
+      "app_id": "1644737181",
+      "name": "BePresent: Screen Time Control"
+    },
+    "app_id": "1644737181"
+  },
+  {
+    "screen_id": "onb_30w0d",
+    "name": "Feature Overview",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 3,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#E0F2FE",
+    "colors": ["#E0F2FE", "#BCE0F3", "#88C8F8", "#EFFBF6", "#000000"],
+    "ui_elements": [
+      "Bold Centered Heading",
+      "Phone Feature Mockup",
+      "Floating Feature Chips",
+      "Green Timer Card",
+      "Rounded Black CTA",
+      "Blue Gradient Backdrop"
+    ],
+    "app": {
+      "app_id": "1644737181",
+      "name": "BePresent: Screen Time Control"
+    },
+    "app_id": "1644737181"
+  },
+  {
+    "screen_id": "onb_j5o39",
+    "name": "Social Proof Sign In",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 4,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#E0F2FE",
+    "colors": ["#E0F2FE", "#94D0FB", "#FFFFFF", "#000000", "#F7C843"],
+    "ui_elements": [
+      "Bold Centered Heading",
+      "Laurel Rating Badge",
+      "Review Quote Card",
+      "Apple Sign In CTA",
+      "Email Link CTA",
+      "Blue Gradient Backdrop"
+    ],
+    "app": {
+      "app_id": "1644737181",
+      "name": "BePresent: Screen Time Control"
+    },
+    "app_id": "1644737181"
+  },
+  {
+    "screen_id": "onb_w06y2",
+    "name": "Email Sign In",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 5,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": ["#FFFFFF", "#000000", "#F4F4F5", "#6F6F70", "#4868D8"],
+    "ui_elements": [
+      "Close Icon",
+      "Brand Welcome Heading",
+      "Name Text Field",
+      "Email Text Field",
+      "Rounded Black CTA",
+      "White Background"
+    ],
+    "app": {
+      "app_id": "1644737181",
+      "name": "BePresent: Screen Time Control"
+    },
+    "app_id": "1644737181"
+  },
+  {
+    "screen_id": "onb_278ab",
+    "name": "Age Selection",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 6,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": ["#FFFFFF", "#F0F0F0", "#A8D8F8", "#3898E8", "#000000"],
+    "ui_elements": [
+      "Back Arrow",
+      "Cake Illustration",
+      "Blue Question Header",
+      "Stacked Choice Rows",
+      "Blue Selected Row",
+      "Progress Indicator"
+    ],
+    "app": {
+      "app_id": "1644737181",
+      "name": "BePresent: Screen Time Control"
+    },
+    "app_id": "1644737181"
+  },
+  {
+    "screen_id": "onb_j1heb",
+    "name": "Screen Time Survey",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 7,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F0F0F0",
+    "colors": ["#F0F0F0", "#FFFFFF", "#A8D8F8", "#4898D8", "#000000"],
+    "ui_elements": [
+      "Back Arrow",
+      "Hourglass Illustration",
+      "Blue Question Header",
+      "Stacked Choice Rows",
+      "Blue Selected Row",
+      "Progress Indicator"
+    ],
+    "app": {
+      "app_id": "1644737181",
+      "name": "BePresent: Screen Time Control"
+    },
+    "app_id": "1644737181"
+  },
+  {
+    "screen_id": "onb_yw1qt",
+    "name": "Assessment Loading",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 8,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#E2F2FF",
+    "colors": ["#E2F2FF", "#BAE2FE", "#7EAEE3", "#0838F8", "#000000"],
+    "ui_elements": [
+      "Circular Progress Ring",
+      "Percent Label",
+      "Loading Caption",
+      "Blue Gradient Backdrop"
+    ],
+    "app": {
+      "app_id": "1644737181",
+      "name": "BePresent: Screen Time Control"
+    },
+    "app_id": "1644737181"
+  },
+  {
+    "screen_id": "onb_2kud3",
+    "name": "Usage Projection",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 9,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#E0F2FE",
+    "colors": ["#E0F2FE", "#B6DFFC", "#0838F8", "#FFFFFF", "#000000"],
+    "ui_elements": [
+      "Shock Emoji",
+      "Centered Insight Text",
+      "Blue Emphasis Text",
+      "Rounded Blue CTA",
+      "Blue Gradient Backdrop"
+    ],
+    "app": {
+      "app_id": "1644737181",
+      "name": "BePresent: Screen Time Control"
+    },
+    "app_id": "1644737181"
+  },
+  {
+    "screen_id": "onb_soezr",
+    "name": "Savings Projection",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 10,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#E0F2FE",
+    "colors": ["#E0F2FE", "#BAE2FE", "#0838F8", "#608ADE", "#000000"],
+    "ui_elements": [
+      "Centered Lead In Text",
+      "Large Blue Number",
+      "Rounded Blue CTA",
+      "Blue Gradient Backdrop"
+    ],
+    "app": {
+      "app_id": "1644737181",
+      "name": "BePresent: Screen Time Control"
+    },
+    "app_id": "1644737181"
+  },
+  {
+    "screen_id": "onb_qf92d",
+    "name": "Sign Up",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 2,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#0A0912",
+    "colors": ["#0A0912", "#1B1E33", "#303058", "#FFFFFF", "#8FD63F"],
+    "ui_elements": [
+      "Back Chevron",
+      "Centered App Logo",
+      "Rounded Email Input",
+      "Rounded Password Input",
+      "Primary Form CTA",
+      "Apple Sign In",
+      "Account Link"
+    ],
+    "app": {
+      "app_id": "1074367771",
+      "name": "Welltory: Stress & Heart Rate"
+    },
+    "app_id": "1074367771"
+  },
+  {
+    "screen_id": "onb_r63iz",
+    "name": "Create Account",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 3,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#08080F",
+    "colors": ["#08080F", "#181E38", "#31294B", "#FFFFFF"],
+    "ui_elements": [
+      "Back Chevron",
+      "Rounded Email Input",
+      "Rounded Password Input",
+      "White Create CTA",
+      "Dark Gradient Backdrop"
+    ],
+    "app": {
+      "app_id": "1074367771",
+      "name": "Welltory: Stress & Heart Rate"
+    },
+    "app_id": "1074367771"
+  },
+  {
+    "screen_id": "onb_w6zz1",
+    "name": "Health Sync Intro",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 4,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#000000",
+    "colors": ["#000000", "#4F5B7A", "#252536", "#FFFFFF", "#FF2D55"],
+    "ui_elements": [
+      "Layered Health Graphic",
+      "Line Chart Overlay",
+      "Health App Tile",
+      "Centered Intro Copy",
+      "Health Sync CTA"
+    ],
+    "app": {
+      "app_id": "1074367771",
+      "name": "Welltory: Stress & Heart Rate"
+    },
+    "app_id": "1074367771"
+  },
+  {
+    "screen_id": "onb_5ucm5",
+    "name": "Data Processing Consent",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 5,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#000000",
+    "colors": ["#000000", "#151E28", "#1C354E", "#5B7A98", "#FFFFFF"],
+    "ui_elements": [
+      "Spotlight Backdrop",
+      "Consent Headline",
+      "Policy Text Block",
+      "Privacy Policy Link",
+      "White Agree CTA",
+      "Secondary Text Action"
+    ],
+    "app": {
+      "app_id": "1074367771",
+      "name": "Welltory: Stress & Heart Rate"
+    },
+    "app_id": "1074367771"
+  },
+  {
+    "screen_id": "onb_gofk4",
+    "name": "Health Access Prompt",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 6,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#05040A",
+    "colors": ["#05040A", "#2D3861", "#6B629E", "#A667BB", "#FF2D55"],
+    "ui_elements": [
+      "Health Settings Mockup",
+      "Blue Purple Gradient",
+      "Centered Permission Copy",
+      "Red Permission CTA",
+      "Maybe Later Link"
+    ],
+    "app": {
+      "app_id": "1074367771",
+      "name": "Welltory: Stress & Heart Rate"
+    },
+    "app_id": "1074367771"
+  },
+  {
+    "screen_id": "onb_bdos2",
+    "name": "Health Sync Benefits",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 7,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#050507",
+    "colors": ["#050507", "#18161C", "#2B3043", "#646D9B", "#FFFFFF"],
+    "ui_elements": [
+      "Health Icons Carousel",
+      "Category Legend Pills",
+      "Benefit Headline",
+      "Privacy Copy Block",
+      "White Access CTA",
+      "Skip Text Action"
+    ],
+    "app": {
+      "app_id": "1074367771",
+      "name": "Welltory: Stress & Heart Rate"
+    },
+    "app_id": "1074367771"
+  },
+  {
+    "screen_id": "onb_7s5fi",
+    "name": "Health Update Opt In",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 8,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#161A22",
+    "colors": ["#161A22", "#302A4A", "#6856B4", "#8A63CF", "#FFFFFF"],
+    "ui_elements": [
+      "Phone Alert Mockup",
+      "Purple Glow Backdrop",
+      "Centered Opt In Copy",
+      "White Opt In CTA",
+      "Maybe Later Link"
+    ],
+    "app": {
+      "app_id": "1074367771",
+      "name": "Welltory: Stress & Heart Rate"
+    },
+    "app_id": "1074367771"
+  },
+  {
+    "screen_id": "onb_mfer8",
+    "name": "Marketing Consent",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 9,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#000000",
+    "colors": ["#000000", "#1B1438", "#3F347D", "#5C547F", "#FFFFFF"],
+    "ui_elements": [
+      "Starfield Backdrop",
+      "Centered Consent Copy",
+      "White Agree CTA",
+      "Maybe Later Link",
+      "Bottom Purple Glow"
+    ],
+    "app": {
+      "app_id": "1074367771",
+      "name": "Welltory: Stress & Heart Rate"
+    },
+    "app_id": "1074367771"
+  },
+  {
+    "screen_id": "onb_rpjur",
+    "name": "Profile Setup",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 10,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#151922",
+    "colors": ["#151922", "#1E202A", "#0C0C10", "#70636B", "#FFFFFF"],
+    "ui_elements": [
+      "Top Fitness Artwork",
+      "Profile Field List",
+      "Divider Rows",
+      "Right Value Labels",
+      "Disabled Save CTA"
+    ],
+    "app": {
+      "app_id": "1074367771",
+      "name": "Welltory: Stress & Heart Rate"
+    },
+    "app_id": "1074367771"
+  },
+  {
+    "screen_id": "onb_die3k",
+    "name": "Sign Up Options",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 2,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": ["#FFFFFF", "#000000", "#019974", "#C4C4C4"],
+    "ui_elements": [
+      "Centered Get Started",
+      "Outlined Car Icon",
+      "Apple Sign In Row",
+      "Google Sign In Row",
+      "Email Sign Up Row",
+      "Outlined Login Button",
+      "Close Icon"
+    ],
+    "app": {
+      "app_id": "924418916",
+      "name": "Mileage Tracker by Driversnote"
+    },
+    "app_id": "924418916"
+  },
+  {
+    "screen_id": "onb_qd3xe",
+    "name": "Email Entry",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 3,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": ["#FFFFFF", "#DFE1E5", "#72BBAB", "#000000", "#0C715A"],
+    "ui_elements": [
+      "Back Chevron",
+      "Email Text Field",
+      "Consent Legal Copy",
+      "Disabled Next CTA",
+      "Hide My Email Bar",
+      "iOS Keyboard"
+    ],
+    "app": {
+      "app_id": "924418916",
+      "name": "Mileage Tracker by Driversnote"
+    },
+    "app_id": "924418916"
+  },
+  {
+    "screen_id": "onb_7mr8f",
+    "name": "Name Entry",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 4,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": ["#FFFFFF", "#DFE1E5", "#72BBAB", "#000000", "#F6F7F7"],
+    "ui_elements": [
+      "Back Chevron",
+      "Name Text Field",
+      "Loading CTA Bar",
+      "Loading Spinner",
+      "iOS Keyboard"
+    ],
+    "app": {
+      "app_id": "924418916",
+      "name": "Mileage Tracker by Driversnote"
+    },
+    "app_id": "924418916"
+  },
+  {
+    "screen_id": "onb_ms5lo",
+    "name": "Country Selection",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 5,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": ["#FFFFFF", "#017A5F", "#000000", "#E6E9E8", "#54A091"],
+    "ui_elements": [
+      "Country Page Header",
+      "Tax Rules Helper Copy",
+      "Country Select Field",
+      "US Flag Icon",
+      "Primary Next CTA"
+    ],
+    "app": {
+      "app_id": "924418916",
+      "name": "Mileage Tracker by Driversnote"
+    },
+    "app_id": "924418916"
+  },
+  {
+    "screen_id": "onb_2qelg",
+    "name": "Password Creation",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 6,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": ["#FFFFFF", "#017A5F", "#000000", "#ACBDBA", "#324C47"],
+    "ui_elements": [
+      "Skip Text Action",
+      "Password Text Field",
+      "Visibility Toggle",
+      "Password Helper Copy",
+      "Primary Next CTA"
+    ],
+    "app": {
+      "app_id": "924418916",
+      "name": "Mileage Tracker by Driversnote"
+    },
+    "app_id": "924418916"
+  },
+  {
+    "screen_id": "onb_t1y64",
+    "name": "Tracking Reason",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 7,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": ["#FFFFFF", "#000000", "#F1F1F1", "#0C715A"],
+    "ui_elements": [
+      "Skip Text Action",
+      "Two Line Page Header",
+      "Reason Option Rows",
+      "Chevron Row Actions",
+      "Row Divider Lines",
+      "Reason Helper Copy"
+    ],
+    "app": {
+      "app_id": "924418916",
+      "name": "Mileage Tracker by Driversnote"
+    },
+    "app_id": "924418916"
+  },
+  {
+    "screen_id": "onb_bgcty",
+    "name": "Workplace Entry",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 8,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": ["#FFFFFF", "#DFE1E5", "#017A5F", "#000000", "#F6F7F7"],
+    "ui_elements": [
+      "Skip Text Action",
+      "Workplace Text Field",
+      "Workplace Helper Copy",
+      "Primary Next CTA",
+      "Name Keyboard Bar",
+      "iOS Keyboard"
+    ],
+    "app": {
+      "app_id": "924418916",
+      "name": "Mileage Tracker by Driversnote"
+    },
+    "app_id": "924418916"
+  },
+  {
+    "screen_id": "onb_4frbj",
+    "name": "Auto Tracking Intro",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 9,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": ["#FFFFFF", "#017A5F", "#000000", "#E2EDEE", "#ECF5F4"],
+    "ui_elements": [
+      "Skip Text Action",
+      "Auto Tracking Header",
+      "Car Line Illustration",
+      "Concentric Radar Rings",
+      "Bottom Privacy Note",
+      "Primary Continue CTA"
+    ],
+    "app": {
+      "app_id": "924418916",
+      "name": "Mileage Tracker by Driversnote"
+    },
+    "app_id": "924418916"
+  },
+  {
+    "screen_id": "onb_f3kgk",
+    "name": "Motion Permission",
+    "flow": "Onboarding",
+    "section": "onboarding",
+    "position": 10,
+    "kind": "image",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#C5C5C5",
+    "colors": ["#C5C5C5", "#FFFFFF", "#000000", "#005F48", "#EFEFEF"],
+    "ui_elements": [
+      "Dimmed Backdrop",
+      "iOS Permission Alert",
+      "Motion Fitness Icon",
+      "Deny Allow Actions",
+      "Primary Continue CTA",
+      "Skip Text Action"
+    ],
+    "app": {
+      "app_id": "924418916",
+      "name": "Mileage Tracker by Driversnote"
+    },
+    "app_id": "924418916"
+  }
+]
