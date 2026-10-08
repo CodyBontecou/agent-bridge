@@ -1,0 +1,10 @@
+{
+  "extends": "../jsconfig.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
+    "tsBuildInfoFile": "../node_modules/.cache/server.tsbuildinfo"
+  },
+  "include": ["**/*.js", "../core/**/*.js", "../scripts/**/*.js", "../plugins/**/*.cjs"]
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["eslint", "unicorn", "oxc", "react", "import", "jsdoc", "promise"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "error",
+    "perf": "error"
+  },
+  "env": {
+    "es2022": true
+  },
+  "ignorePatterns": ["node_modules/**", "ios/**", "android/**", "dist/**", ".expo/**", ".local/**"],
+  "rules": {
+    "eslint/no-debugger": "error",
+    "eslint/eqeqeq": ["error", "always"],
+    "eslint/no-var": "error",
+    "eslint/prefer-const": "error",
+    "eslint/no-eval": "error",
+    "eslint/no-implied-eval": "error",
+    "eslint/no-new-func": "error",
+    "eslint/no-throw-literal": "error",
+    "eslint/no-unused-vars": [
+      "error",
+      {
+        "args": "all",
+        "argsIgnorePattern": "^_",
+        "caughtErrors": "all",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ],
+    "react/rules-of-hooks": "error",
+    "react/exhaustive-deps": "error",
+    "import/no-cycle": "error",
+    "import/no-duplicates": "error",
+    "promise/no-new-statics": "error",
+    "promise/valid-params": "error",
+    "react/react-in-jsx-scope": "off"
+  },
+  "overrides": [
+    {
+      "files": ["App.js", "index.js", "client/**/*.js"],
+      "env": {
+        "browser": true
+      },
+      "globals": {
+        "process": "readonly",
+        "__DEV__": "readonly"
+      },
+      "rules": {
+        "eslint/no-restricted-imports": [
+          "error",
+          {
+            "patterns": [
+              {
+                "group": ["node:*", "./server/**"],
+                "message": "Keep server and Node APIs outside the mobile app."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": ["server/**/*.js", "scripts/**/*.js", "*.cjs", "plugins/**/*.cjs"],
+      "env": {
+        "node": true
+      },
+      "rules": {
+        "eslint/no-restricted-imports": [
+          "error",
+          {
+            "patterns": [
+              {
+                "group": ["react", "react-native", "react-native-*", "expo", "expo-*", "../App*"],
+                "message": "The server and tooling run in Node, independent of the mobile UI."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": ["core/**/*.js"],
+      "rules": {
+        "eslint/no-restricted-imports": [
+          "error",
+          {
+            "patterns": [
+              {
+                "group": ["**", "!./**"],
+                "message": "The shared core only imports other core modules using ./ paths."
+              }
+            ]
+          }
+        ],
+        "eslint/no-restricted-globals": [
+          "error",
+          "window",
+          "document",
+          "navigator",
+          "localStorage",
+          "process",
+          "Buffer",
+          "fetch",
+          "require",
+          "console",
+          "setTimeout",
+          "setInterval"
+        ]
+      }
+    }
+  ]
+}

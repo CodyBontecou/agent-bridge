@@ -39,3 +39,11 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Static checker caches
+.eslintcache
+
+.env
+.local/
+
+.env.cloud

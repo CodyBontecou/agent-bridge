@@ -1,0 +1,3 @@
+{$SERVICE_DOMAIN} {
+  reverse_proxy service:3000
+}

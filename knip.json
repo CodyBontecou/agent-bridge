@@ -1,0 +1,15 @@
+{
+  "$schema": "https://unpkg.com/knip@6/schema.json",
+  "project": [
+    "*.js",
+    "*.cjs",
+    "core/**/*.js",
+    "server/**/*.js",
+    "scripts/**/*.js",
+    "client/**/*.js",
+    "plugins/**/*.cjs"
+  ],
+  "ignoreDependencies": ["@types/punycode"],
+  "ignoreBinaries": ["fly"],
+  "entry": ["scripts/*.js", "plugins/*.cjs"]
+}

@@ -1,0 +1,19 @@
+app = "qr-connect-cloud-cody-auth"
+primary_region = "cdg"
+[build]
+  dockerfile = "Identity.Dockerfile"
+[env]
+  KC_HOSTNAME = "https://qr-connect-cloud-cody.fly.dev/auth"
+  KC_HTTP_HOST = "::"
+  KC_HTTP_ENABLED = "true"
+  KC_HTTP_RELATIVE_PATH = "/auth"
+  KC_PROXY_HEADERS = "xforwarded"
+  KC_DB = "postgres"
+  KC_DB_URL = "jdbc:postgresql://qr-connect-cloud-cody-db.internal:5432/keycloak"
+  KC_DB_USERNAME = "keycloak"
+  KC_BOOTSTRAP_ADMIN_USERNAME = "admin"
+  JAVA_OPTS_KC_HEAP = "-Xms256m -Xmx640m"
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory = "1024mb"

@@ -1,41 +1,23 @@
-This is an Expo/React Native mobile application. Prioritize mobile-first patterns, performance, and cross-platform compatibility.
+# Working in this app
 
-## Expo has changed — do not trust your training data
+Keep application and tooling source in plain JavaScript. Use JSDoc where a function boundary needs a type; strict `checkJs` checks the existing `.js` files without emitting code.
 
-Expo ships breaking changes every SDK release. APIs you remember are likely renamed, moved, or removed. Before writing any code that touches an Expo, EAS, or React Native API:
+## Finish each change
 
-1. Read the major version of the `expo` package in `package.json`.
-2. Fetch the matching versioned docs: `https://docs.expo.dev/versions/v<major>.0.0/`
-3. For anything else, fetch https://docs.expo.dev/llms.txt — an index of all Expo docs with corrections to common LLM misconceptions. Follow its links to the specific page you need; never answer from memory.
+1. Make the smallest change that solves the request.
+2. Run `npm run format` for formatting, then `npm run check`.
+3. Fix every reported error. Completion requires exit code 0 from the aggregate check. It runs independent tools concurrently and returns nonzero if any tool fails.
 
-## Commands
+Use the static check result as evidence for formatting, type compatibility, lint rules, imports, native text/style rules, and unused code. Add runtime verification only for behavior these tools cannot prove, such as business rules, network responses, gestures, and native integration. Avoid tests that duplicate a static rule. Preserve checker scope when adding source directories.
 
-Use `bunx` instead of `npx` if the project uses bun (`bun.lock` present).
+Keep `core/` dependency-free and independent of React Native, Node, browser APIs, and side effects. The core has its own environment-free type check and lint restrictions. Keep I/O at the client and server boundaries.
 
-```bash
-npx expo install <package>  # ALWAYS use instead of npm/yarn/pnpm/bun add — resolves SDK-compatible versions
-npx expo start              # start the dev server
-npx expo lint               # lint
-npx tsc --noEmit            # typecheck
-npx expo-doctor             # diagnose dependency and config issues
-npx expo install --fix      # fix incompatible package versions
-```
+## Native work
 
-Run lint and typecheck before declaring any task done.
+Read the installed Expo major in `package.json` and consult matching docs at `https://docs.expo.dev/versions/v<major>.0.0/` before changing Expo APIs or config. Use `npx expo install` for SDK-compatible dependencies. Native directories are generated from `app.json`; configure them through Expo rather than editing generated files.
 
-## Navigation & Routing
+For JS-only work, the static checks are the default validation. Run `npm run bundle` when Metro/module resolution changes. Compile the affected platform after native dependencies or configuration change. Run scripts from `package.json`; native builds are deliberately outside the fast static gate.
 
-- Use **Expo Router** for all navigation. Routes live in `src/app/` — every file there is a screen, `_layout.tsx` files define navigators. Keep non-route code (components, hooks, utils) outside `src/app/`.
-- Import `Link`, `router`, and `useLocalSearchParams` from `expo-router`.
-- Docs: https://docs.expo.dev/router/introduction.md
+## Checker maintenance
 
-## Building with EAS
-
-Use EAS to build, sign, and submit the app in the cloud (`eas build`, `eas submit`) and to ship over-the-air updates (`eas update`) — no local Xcode or Android Studio required. Run EAS CLI as `bunx eas-cli <command>` in Bun projects, or `npx eas-cli@latest <command>` otherwise; substitute that for bare `eas` in docs examples.
-Docs: https://docs.expo.dev/eas/index.md
-
-## Rules
-
-- If `ios/` and `android/` directories do not exist, they are generated (Continuous Native Generation). Never create or edit them by hand — configure native behavior in `app.json` and config plugins.
-- Expo Go only includes its bundled native modules. After adding a library with native code, the app needs a development build: `npx expo run:ios|android` locally, or `eas build --profile development`.
-- Prefer recommended Expo modules over third-party libraries, and check your available skills before adding dependencies. Docs: https://docs.expo.dev/versions/latest/index.md
+Keep rules focused on mistakes and useful contracts. Prettier owns formatting; Oxlint owns the overlapping ESLint rules; ESLint retains Expo and React Native checks. Explain any narrow exception in README. Fix the source instead of weakening checks or adding blanket disables. `README.md` documents commands, coverage, caches, and limits.

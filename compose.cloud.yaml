@@ -1,0 +1,55 @@
+services:
+  service:
+    build: .
+    restart: unless-stopped
+    environment:
+      PUBLIC_URL: https://${SERVICE_DOMAIN:?Set SERVICE_DOMAIN}
+      OAUTH_ISSUER: https://${SERVICE_DOMAIN}/auth/realms/qr-connect
+      CLOUD_ENCRYPTION_KEY: ${CLOUD_ENCRYPTION_KEY:?Set a persistent 64-character hex key}
+      AUTH_PROXY: '1'
+      KEYCLOAK_INTERNAL_HOST: identity
+      IOS_APP_ID: ${IOS_APP_ID:-}
+    volumes:
+      - cloud-data:/data
+    depends_on: [identity]
+  identity:
+    image: quay.io/keycloak/keycloak:26.8.0
+    command: [start, --import-realm]
+    restart: unless-stopped
+    environment:
+      KC_HOSTNAME: https://${SERVICE_DOMAIN}/auth
+      KC_HTTP_ENABLED: 'true'
+      KC_HTTP_RELATIVE_PATH: /auth
+      KC_PROXY_HEADERS: xforwarded
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://database:5432/keycloak
+      KC_DB_USERNAME: keycloak
+      KC_DB_PASSWORD: ${IDENTITY_DB_PASSWORD:?Set IDENTITY_DB_PASSWORD}
+      KC_BOOTSTRAP_ADMIN_USERNAME: ${IDENTITY_ADMIN_USER:-admin}
+      KC_BOOTSTRAP_ADMIN_PASSWORD: ${IDENTITY_ADMIN_PASSWORD:?Set IDENTITY_ADMIN_PASSWORD}
+    volumes:
+      - ./.local/cloud-realm:/opt/keycloak/data/import:ro
+    depends_on: [database]
+  database:
+    image: postgres:17-bookworm
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: ${IDENTITY_DB_PASSWORD}
+    volumes:
+      - identity-data:/var/lib/postgresql/data
+  https:
+    image: caddy:2
+    restart: unless-stopped
+    ports: ['80:80', '443:443']
+    environment:
+      SERVICE_DOMAIN: ${SERVICE_DOMAIN}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+    depends_on: [service]
+volumes:
+  cloud-data:
+  identity-data:
+  caddy-data:
