@@ -1,0 +1,268 @@
+{
+  "screens": [
+    {
+      "screen_id": "oth_eh87f",
+      "name": "History",
+      "flow": "Main Navigation",
+      "section": "other-tabs",
+      "position": 31,
+      "kind": "image",
+      "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2UyYmE5ZTllNWVlMDUyYzQ2MGIwYTdjMzg1Yjg2Y2Y4OGNjZGJiODYud2VicCIsImV4cCI6MTc5MTQ4NzU2NH3cszdOncatwrH7K0jL1NRTdL9DpAPNqMc.webp",
+      "width": null,
+      "height": null,
+      "duration_ms": null,
+      "dominant_color": "#F7F8FC",
+      "colors": ["#F7F8FC", "#FFFFFF", "#111111", "#3977F6", "#E6E8EE"],
+      "ui_elements": [
+        "Back chevron",
+        "History item cards",
+        "Image result card",
+        "Timestamp labels",
+        "Rounded content cards"
+      ],
+      "app": {
+        "app_id": "6449486871",
+        "name": "Question.AI-Math Calculator"
+      }
+    },
+    {
+      "screen_id": "oth_sxhim",
+      "name": "History",
+      "flow": "History",
+      "section": "other-tabs",
+      "position": 10,
+      "kind": "image",
+      "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2Y4ZWRiYzlmYWZlODE5YzU5NzI4NDNjMmZkMjMzMWNkNzM2NjhmMGMud2VicCIsImV4cCI6MTc5MTQ4NzU2NH1p0-lI4h4-8KrCEqocqzgxXHs-BaAIxb8.webp",
+      "width": null,
+      "height": null,
+      "duration_ms": null,
+      "dominant_color": "#FFFFFF",
+      "colors": ["#FFFFFF", "#F6F6F6", "#111111", "#FFD91F", "#45413A"],
+      "ui_elements": [
+        "Segmented Filter Tabs",
+        "History Image Card",
+        "Generating Overlay",
+        "Yellow Status Chip",
+        "Floating Bottom Nav",
+        "Select Text Button"
+      ],
+      "app": {
+        "app_id": "6502747597",
+        "name": "AI Home Design: Interior DecAI"
+      }
+    },
+    {
+      "screen_id": "oth_j3cld",
+      "name": "History",
+      "flow": "Others",
+      "section": "other-tabs",
+      "position": 12,
+      "kind": "image",
+      "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2IxMjQzZDc0YTdiMzcxOGE1NTNhNzJiNDg4YWE5NDExZDVlN2QwNTIud2VicCIsImV4cCI6MTc5MTQ4NzU2NH13UzdvNCB2lnq33StjNeNFVy9jo8y4_WM.webp",
+      "width": null,
+      "height": null,
+      "duration_ms": null,
+      "dominant_color": "#121212",
+      "colors": ["#121212", "#1E1E1E", "#FEFEFE", "#000000", "#B880F8"],
+      "ui_elements": [
+        "Gradient Pro Badge",
+        "Toolbar Icon Buttons",
+        "Today Section Label",
+        "History Thumbnail Card",
+        "Selected History Tab",
+        "Bottom Tab Bar"
+      ],
+      "app": {
+        "app_id": "6760999798",
+        "name": "AI Tattoo Design: ArtReel"
+      }
+    },
+    {
+      "screen_id": "oth_a3jwq",
+      "name": "History",
+      "flow": "Others",
+      "section": "other-tabs",
+      "position": 31,
+      "kind": "image",
+      "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2RjMDE3YTI2NjMxMWQ0ODdjNWZmZDZjMjZhMjFmMjNkNjg2YjA0Zjgud2VicCIsImV4cCI6MTc5MTQ4NzU2NH0-4ytOFCdrbV3Q2CcU8gdF0AqHXTVIR8o.webp",
+      "width": null,
+      "height": null,
+      "duration_ms": null,
+      "dominant_color": "#1B1B1B",
+      "colors": ["#1B1B1B", "#121212", "#2B2A28", "#949697", "#040404"],
+      "ui_elements": [
+        "Profile Header Card",
+        "Image Video Tabs",
+        "Empty State Icon",
+        "Try Generate CTA",
+        "Bottom Tab Bar",
+        "Utility Icons"
+      ],
+      "app": {
+        "app_id": "6478513085",
+        "name": "Creati: Gen AI Content Creator"
+      }
+    },
+    {
+      "screen_id": "oth_ww88q",
+      "name": "History",
+      "flow": "Insights",
+      "section": "other-tabs",
+      "position": 6,
+      "kind": "image",
+      "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2QwNmMwMjIyMmNiODUyY2I5YjI2ZGYxYmE5NTM5Nzk4ZDQzYTc3YjYud2VicCIsImV4cCI6MTc5MTQ4NzU2NH0SlJm8XvTBx1tm5cPZQcp4-diTOAHxKsw.webp",
+      "width": null,
+      "height": null,
+      "duration_ms": null,
+      "dominant_color": "#FFFFFF",
+      "colors": ["#FFFFFF", "#F2F2F7", "#0A84FF", "#111111", "#D1D1D6"],
+      "ui_elements": [
+        "Pro Pill CTA",
+        "Hamburger Menu Button",
+        "History Header",
+        "Time Range Tabs",
+        "Empty State Artwork",
+        "Empty State Message",
+        "Bottom Tab Bar"
+      ],
+      "app": {
+        "app_id": "1612261125",
+        "name": "ID Scanner Professional"
+      }
+    },
+    {
+      "screen_id": "oth_se9mv",
+      "name": "History",
+      "flow": "AI Chat",
+      "section": "other-tabs",
+      "position": 40,
+      "kind": "image",
+      "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzgyZDFhZWRhOWIzY2M2YzE3ZmI0ZTI0ZTYwYmY3ZDRhMWE4Y2Q0NTkud2VicCIsImV4cCI6MTc5MTQ4NzU2NH1TcpNfSdjzJk8dnqNl_DLGqkf5vvttjeY.webp",
+      "width": null,
+      "height": null,
+      "duration_ms": null,
+      "dominant_color": "#FFFFFF",
+      "colors": ["#FFFFFF", "#F7F7F8", "#F0F0F1", "#000000", "#B8B8B8"],
+      "ui_elements": [
+        "Top History Header",
+        "History Search Bar",
+        "Rounded History Cards",
+        "Timestamp Labels",
+        "Delete Icons",
+        "Bottom Navigation"
+      ],
+      "app": {
+        "app_id": "1639845219",
+        "name": "AI Writer: Email Letter Essay"
+      }
+    },
+    {
+      "screen_id": "oth_d72j7",
+      "name": "History",
+      "flow": "Vocabulary Library",
+      "section": "other-tabs",
+      "position": 10,
+      "kind": "image",
+      "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2E3ZjA5OGZkNGQxOTkwMTZlYzE0NDFlYzE3ZWViMmM5OTdhMGVkNGMud2VicCIsImV4cCI6MTc5MTQ4NzU2NH1KZk_E4Bcjs42ZLdTvu7mOeFaJj2TS9Ac.webp",
+      "width": null,
+      "height": null,
+      "duration_ms": null,
+      "dominant_color": "#FFFFFF",
+      "colors": ["#FFFFFF", "#F0EBE1", "#92C1C2", "#313333", "#ECE8E0"],
+      "ui_elements": [
+        "Centered Page Title",
+        "Practice Words CTA",
+        "Stacked Word Cards",
+        "Inline Save Actions",
+        "Floating Tab Bar"
+      ],
+      "app": {
+        "app_id": "1084540807",
+        "name": "Vocabulary - Learn words daily"
+      }
+    },
+    {
+      "screen_id": "oth_u3158",
+      "name": "History",
+      "flow": "History",
+      "section": "other-tabs",
+      "position": 11,
+      "kind": "image",
+      "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzA4OTE0NjdhNDQ2Mjk1Zjg4NDIxNTA4NTgxMzRmYTE5MDgzODNhMzQud2VicCIsImV4cCI6MTc5MTQ4NzU2NH1DlwflmBGCdjEgksSYC3g22IEqtli1DhE.webp",
+      "width": null,
+      "height": null,
+      "duration_ms": null,
+      "dominant_color": "#FFFFFF",
+      "colors": ["#FFFFFF", "#F6F6F6", "#111111", "#FFD91F", "#B7A892"],
+      "ui_elements": [
+        "Segmented Filter Tabs",
+        "History Image Card",
+        "Red Notification Dot",
+        "Floating Bottom Nav",
+        "Select Text Button"
+      ],
+      "app": {
+        "app_id": "6502747597",
+        "name": "AI Home Design: Interior DecAI"
+      }
+    },
+    {
+      "screen_id": "oth_ciqr7",
+      "name": "History",
+      "flow": "Others",
+      "section": "other-tabs",
+      "position": 55,
+      "kind": "image",
+      "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzc1MjVkZDVkMTg4YWU4OThiZWRmOTU5MDg1NjM0NWJmNjcyNTc0ZjIud2VicCIsImV4cCI6MTc5MTQ4NzU2NH1NKXndHUA5AHw7RC-tx_aDaSx0KRFYkUQ.webp",
+      "width": null,
+      "height": null,
+      "duration_ms": null,
+      "dominant_color": "#131314",
+      "colors": ["#131314", "#28202F", "#6232C9", "#A8627B", "#F4C84B"],
+      "ui_elements": [
+        "Mobile Status Bar",
+        "History Filter Tabs",
+        "Gradient Promo Banner",
+        "History Thumbnail Grid",
+        "Bottom Tab Bar"
+      ],
+      "app": {
+        "app_id": "6446556788",
+        "name": "Arvin®: AI Product Photo Maker"
+      }
+    },
+    {
+      "screen_id": "oth_0iur2",
+      "name": "History",
+      "flow": "Library",
+      "section": "other-tabs",
+      "position": 15,
+      "kind": "image",
+      "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzAxMTNhMDM5YjAxMzlhNTk0YjFiZmM0YTAxYWNiYTcxNmY1M2I1ZWUud2VicCIsImV4cCI6MTc5MTQ4NzU2NH24V1DSxbCRGf7hKViHvyc6amjDnI9snQ0.webp",
+      "width": null,
+      "height": null,
+      "duration_ms": null,
+      "dominant_color": "#FFFFFF",
+      "colors": ["#FFFFFF", "#FF9F0A", "#34C759", "#1C1C1E", "#F2F2F7"],
+      "ui_elements": [
+        "History Header",
+        "Orange Filter Field",
+        "Orange Filter Buttons",
+        "Recent Song Row",
+        "App Promo Banner",
+        "Bottom Tab Bar"
+      ],
+      "app": {
+        "app_id": "399211291",
+        "name": "Songsterr Tabs & Chords"
+      }
+    }
+  ],
+  "total": 295,
+  "next_cursor": "eyJ2IjoxLCJ1IjoiM2EwM2E1M2JmZDg1ZDM1OSIsInQiOiJzZWFyY2hfc2NyZWVucyIsInEiOiIzZDEzMDE5Y2U3NmNkZjFjNWZiMjIwYjAiLCJvIjoxMCwiaHciOjIwLCJleHAiOjE3OTE0ODc1NjR9.qVlI_0vA64DVGBPO67sysDYEHZ0",
+  "note": "Media URLs in this response are first-party appllama.io links that expire in about 60 minutes. Fetch what you need promptly, or re-request the page for fresh links.",
+  "credits": {
+    "spent": 1,
+    "remaining_this_month": 1418
+  }
+}
