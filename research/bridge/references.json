@@ -1,0 +1,908 @@
+[
+  {
+    "screen_id": "oth_ll4sb",
+    "name": "Apps Home",
+    "flow": "Apps",
+    "section": "other-tabs",
+    "position": 11,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzQxMzg3YjU2NjU5Mjg2NzZiNzI1YTdmNGM3NDBlM2RhZmRhMGJjNTUud2VicCIsImV4cCI6MTc5MTQ4MjM0Mn0spHKPsc0owYldWIWfMtPEPu9SdApMm1g.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": [
+      "#FFFFFF",
+      "#F4F4F4",
+      "#2F2F2F",
+      "#28B7D8",
+      "#E53935"
+    ],
+    "ui_elements": [
+      "Search Apps Field",
+      "Hero App Card",
+      "Category Tabs",
+      "App List Rows",
+      "GPTs Pill Button"
+    ],
+    "app": {
+      "app_id": "6448311069",
+      "name": "ChatGPT"
+    },
+    "group": "screens0"
+  },
+  {
+    "screen_id": "oth_3x8wa",
+    "name": "App Detail Overview",
+    "flow": "Apps",
+    "section": "other-tabs",
+    "position": 12,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzYxMTE2MjJiYjUyYmFjZTdiNjkzODU0Y2Y1ZGZlMThhMWIzZWE1NGIud2VicCIsImV4cCI6MTc5MTQ4MjM0Mn1_WeVy7YjW7-OLBUSU2uaczjc4cTTZE1w.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": [
+      "#FFFFFF",
+      "#F4F4F4",
+      "#002B49",
+      "#28B7D8",
+      "#4C63FF"
+    ],
+    "ui_elements": [
+      "Back Circle Button",
+      "App Icon Header",
+      "Connect Pill Button",
+      "Screenshot Carousel",
+      "Info Section Header"
+    ],
+    "app": {
+      "app_id": "6448311069",
+      "name": "ChatGPT"
+    },
+    "group": "screens0"
+  },
+  {
+    "screen_id": "oth_3k69g",
+    "name": "App Detail Info",
+    "flow": "Apps",
+    "section": "other-tabs",
+    "position": 13,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzI2OTNlZTE5ODQxZTk5MTcwNTdmZjFkNDI2ZWEwODY0YTNkZThkNmYud2VicCIsImV4cCI6MTc5MTQ4MjM0Mn1ZiqUHtCP82929N2bLpWiPSme5QNH67ww.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": [
+      "#FFFFFF",
+      "#F7F7F7",
+      "#E5E5E5",
+      "#2F2F2F",
+      "#4C63FF"
+    ],
+    "ui_elements": [
+      "Back Circle Button",
+      "Floating Top Bar",
+      "Info Table Card",
+      "Divider Lines",
+      "Scroll Indicator"
+    ],
+    "app": {
+      "app_id": "6448311069",
+      "name": "ChatGPT"
+    },
+    "group": "screens0"
+  },
+  {
+    "screen_id": "oth_m319j",
+    "name": "Apps Explore",
+    "flow": "Apps",
+    "section": "other-tabs",
+    "position": 14,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzNhZjBjNDgxMGQxMGQ0MjZmZWU0ZDlmMmQ2MGYzZDIxOTBjM2JjZjQud2VicCIsImV4cCI6MTc5MTQ4MjM0Mn2h_-4xBUUkHMRiAR7emo9Cs7vZXXuF7Tg.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": [
+      "#FFFFFF",
+      "#F6F6F6",
+      "#111111",
+      "#FFD83D",
+      "#5D5FEF"
+    ],
+    "ui_elements": [
+      "Search Icon Button",
+      "Filter Chip Row",
+      "Featured App Cards",
+      "Trending Rank List",
+      "App Logo Thumbnails"
+    ],
+    "app": {
+      "app_id": "6448311069",
+      "name": "ChatGPT"
+    },
+    "group": "screens0"
+  },
+  {
+    "screen_id": "oth_a34ty",
+    "name": "GPT Profile Modal",
+    "flow": "Apps",
+    "section": "other-tabs",
+    "position": 15,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzAzMTA5M2FkZTEzNjI5NWM4MWM4Y2ZhNjljYzQxMWNlYTZmODQ2ZDkud2VicCIsImV4cCI6MTc5MTQ4MjM0Mn2P5MfKdw8u-ghwQqh2SHRUmH7p6ndv3SA.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": [
+      "#FFFFFF",
+      "#F4F4F4",
+      "#000000",
+      "#CCCCCC",
+      "#6FE7B7"
+    ],
+    "ui_elements": [
+      "Half Sheet Modal",
+      "Close Circle Button",
+      "Profile Avatar Icon",
+      "Stats Triplet",
+      "Capability Checks",
+      "Start Chat CTA"
+    ],
+    "app": {
+      "app_id": "6448311069",
+      "name": "ChatGPT"
+    },
+    "group": "screens0"
+  },
+  {
+    "screen_id": "oth_4xxu2",
+    "name": "Home",
+    "flow": "Chat",
+    "section": "other-tabs",
+    "position": 2,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzY3MDFiN2RmODdhZTIyN2QxMDUwMDc5NmMyOGMwZDdkOWQ0OTU5MjMud2VicCIsImV4cCI6MTc5MTQ4MjM0NH3PWGtmL9TKTFCFYfhlp1MRPqwjIHXfJfM.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F7F7F5",
+    "colors": [
+      "#F7F7F5",
+      "#010101",
+      "#E9E7E2",
+      "#D97757",
+      "#A4A4A1"
+    ],
+    "ui_elements": [
+      "Round Menu Button",
+      "Round Profile Button",
+      "Centered Claude Mark",
+      "Upgrade Promo Card",
+      "Bottom Chat Composer"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "screens1"
+  },
+  {
+    "screen_id": "oth_vtujo",
+    "name": "Add to Chat",
+    "flow": "Chat",
+    "section": "other-tabs",
+    "position": 3,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2E3MWJkZTk0ZTMxNzQ4N2VjYTYzNzRiZWNlZjVjMTQ3MzA1MzY0NzAud2VicCIsImV4cCI6MTc5MTQ4MjM0NH2CP89Gki4VWQV2rlOnDm0WdImJw-pIimQ.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F8F8F7",
+    "colors": [
+      "#F8F8F7",
+      "#000000",
+      "#EDECE8",
+      "#2669BF",
+      "#A2A2A1"
+    ],
+    "ui_elements": [
+      "Grabber Handle",
+      "Close Circle Button",
+      "Media Source Tiles",
+      "Drive Import Row",
+      "Project Picker Row",
+      "Memory Toggle"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "screens1"
+  },
+  {
+    "screen_id": "oth_obfe4",
+    "name": "Chat Thread",
+    "flow": "Chat",
+    "section": "other-tabs",
+    "position": 7,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2JjNWI1OWQxNmUwMTUyMjU5MGQ5ZGRiMDYxZmY1MDhhZDAzYjBkZDMud2VicCIsImV4cCI6MTc5MTQ4MjM0NH065drj50ynj_TNShSDWY0OFfSa0dnMCG0.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F3F3F1",
+    "colors": [
+      "#F3F3F1",
+      "#020202",
+      "#A5A4A3",
+      "#9BB0CA",
+      "#CAC6BC"
+    ],
+    "ui_elements": [
+      "Top Action Bar",
+      "User Message Bubble",
+      "Artifact Preview Card",
+      "Rich Text Response",
+      "Inline Code Links",
+      "Bottom Chat Composer"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "screens1"
+  },
+  {
+    "screen_id": "oth_svd3w",
+    "name": "Chat Response",
+    "flow": "Chat",
+    "section": "other-tabs",
+    "position": 10,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzcyMDk1MWY1MTQ5NmU5MGQwN2NjODczMzg4Y2QyMjZjODc1ZjU2MTQud2VicCIsImV4cCI6MTc5MTQ4MjM0NH1xMGwpF2hkeNfa6F8yWeLZ2BaA3QcQ8so.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F3F3F1",
+    "colors": [
+      "#F3F3F1",
+      "#030303",
+      "#A4A4A3",
+      "#9CB1CA",
+      "#666665"
+    ],
+    "ui_elements": [
+      "Top Action Bar",
+      "Numbered Text Blocks",
+      "Inline Code Links",
+      "Scroll To Bottom",
+      "Bottom Chat Composer"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "screens1"
+  },
+  {
+    "screen_id": "oth_k1q2c",
+    "name": "Chat Response",
+    "flow": "Chat",
+    "section": "other-tabs",
+    "position": 11,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzA5YjAwN2I5YmFhYjFiZjZkNjBmZmZhYjVmYzZmNzg4YWZiYjQ4Y2Eud2VicCIsImV4cCI6MTc5MTQ4MjM0NH2e_8wc26asy2OODPC33lRmYgLESZUg7cA.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F4F4F3",
+    "colors": [
+      "#F4F4F3",
+      "#030303",
+      "#A6A5A4",
+      "#9AB0CA",
+      "#656564"
+    ],
+    "ui_elements": [
+      "Top Action Bar",
+      "Bulleted Text Blocks",
+      "Inline Code Links",
+      "Response Action Row",
+      "Bottom Chat Composer"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "screens1"
+  },
+  {
+    "screen_id": "oth_8ujyb",
+    "name": "Voice Input Composer",
+    "flow": "Chat",
+    "section": "other-tabs",
+    "position": 17,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzgxNDczMzM5YWI0NjYxN2NlYTYyOTU1OWIxZmE1ZTliZWQ1MzRmYmEud2VicCIsImV4cCI6MTc5MTQ4MjM0NH17nY1DOBZeuyriv37X_u0UbaiDyqynips.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F4F4F3",
+    "colors": [
+      "#F4F4F3",
+      "#020202",
+      "#A2A2A1",
+      "#C6603F",
+      "#636362"
+    ],
+    "ui_elements": [
+      "Round Menu Button",
+      "Round Profile Button",
+      "Centered Claude Mark",
+      "Greeting Heading",
+      "Voice Waveform",
+      "Send Circle Button",
+      "iOS Keyboard"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "screens1"
+  },
+  {
+    "screen_id": "oth_r6dx6",
+    "name": "Files Setup Intro",
+    "flow": "Files",
+    "section": "other-tabs",
+    "position": 6,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2UwNGJlNmY4NzJiMWQ2YzU3ZDEzNmU5Y2UzNTc2Yzc4N2Y3NTYxMTAud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn1WRew6-VYTbhrrQR6ZPn1yPNU5QyBNLrQ.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": [
+      "#FFFFFF",
+      "#1E1919",
+      "#0061FF",
+      "#FF8A4C",
+      "#F7F5F2"
+    ],
+    "ui_elements": [
+      "Close Icon Button",
+      "Files Empty Illustration",
+      "Centered Text Block",
+      "Blue Setup CTA"
+    ],
+    "app": {
+      "app_id": "327630330",
+      "name": "Dropbox: Cloud Storage Backup"
+    },
+    "group": "extra0"
+  },
+  {
+    "screen_id": "oth_y63kd",
+    "name": "Files",
+    "flow": "Files",
+    "section": "other-tabs",
+    "position": 12,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2ViMTIzODQ3MjJlNDFhZGI3OTJjZTgxYjY4MWNjM2Y2ZmRlMzY4N2Iud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn2vDE2_T9RkEJJrT8FjSObbGzJ9D-rQpOc.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": [
+      "#FFFFFF",
+      "#F7F5F2",
+      "#1E1919",
+      "#0061FF",
+      "#B7B2AE"
+    ],
+    "ui_elements": [
+      "Top Navigation Icons",
+      "Files Search Field",
+      "Sort Header",
+      "Empty Folder Message",
+      "File Action Cards",
+      "Bottom Tab Bar",
+      "Blue Floating Add CTA"
+    ],
+    "app": {
+      "app_id": "327630330",
+      "name": "Dropbox: Cloud Storage Backup"
+    },
+    "group": "extra0"
+  },
+  {
+    "screen_id": "oth_r5q49",
+    "name": "File Layout Menu",
+    "flow": "Files",
+    "section": "other-tabs",
+    "position": 13,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2M1MzIwMzIyMDgzZjYzMzMyMWIyNjlmNTc0NmJkNWExMTE2MGFjNTUud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn2z5VnLnGk5nremJn8zJDCTIdY-_Q9xP-c.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": [
+      "#FFFFFF",
+      "#F7F5F2",
+      "#1E1919",
+      "#8F8F8F",
+      "#0061FF"
+    ],
+    "ui_elements": [
+      "Dimmed Files Backdrop",
+      "Layout Options Sheet",
+      "Layout Option Rows",
+      "Selected Checkmark"
+    ],
+    "app": {
+      "app_id": "327630330",
+      "name": "Dropbox: Cloud Storage Backup"
+    },
+    "group": "extra0"
+  },
+  {
+    "screen_id": "oth_mjp03",
+    "name": "Settings",
+    "flow": "Settings",
+    "section": "other-tabs",
+    "position": 23,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzA5NDhiYzVmNDQ2YTc4YzEzNDY1NzhiNzZhZjRiNzNhNDYyMzc1MjMud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn2P9P55YdMQRefAxXE-XpbLPC7QRjhHf0s.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F8F8F7",
+    "colors": [
+      "#F8F8F7",
+      "#050505",
+      "#A9A9A9",
+      "#9EB0CA",
+      "#616162"
+    ],
+    "ui_elements": [
+      "Close Circle Button",
+      "Settings Title",
+      "Info Circle Button",
+      "Account Card",
+      "Upgrade Promo Card",
+      "Settings List Rows"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "extra1"
+  },
+  {
+    "screen_id": "oth_51l93",
+    "name": "Settings",
+    "flow": "Settings",
+    "section": "other-tabs",
+    "position": 24,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2ZjOGZlMTZlMzIzY2JmNmY2MTIxNGE2Y2E1NzM2OWM1YjJhYmExNzIud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn0CNGfX8mVmlAPYaDSU2-i4JZ7T5cmIRzc.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F7F7F6",
+    "colors": [
+      "#F7F7F6",
+      "#0A0A0A",
+      "#AAAAA9",
+      "#9FB5D4",
+      "#B2C9E5"
+    ],
+    "ui_elements": [
+      "Close Circle Button",
+      "Settings Title",
+      "Info Circle Button",
+      "Settings List Rows",
+      "Haptic Toggle",
+      "Theme Preview Cards",
+      "Logout Row"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "extra1"
+  },
+  {
+    "screen_id": "oth_jdon3",
+    "name": "Profile Settings",
+    "flow": "Settings",
+    "section": "other-tabs",
+    "position": 25,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzNmOTllYTcxY2RiNTRmNGEyMjJhOTE0M2I3NjZmZTM5YTg1ZGQ2ODEud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn1fW0258TkPhfmKn7Cbux8IMZxcW_q5A28.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F6F6F5",
+    "colors": [
+      "#F6F6F5",
+      "#030303",
+      "#A9A9A8",
+      "#CDA4A3",
+      "#626266"
+    ],
+    "ui_elements": [
+      "Back Circle Button",
+      "Profile Title",
+      "Save Circle Button",
+      "Name Field Rows",
+      "Instruction Text Field",
+      "Delete Account Row"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "extra1"
+  },
+  {
+    "screen_id": "oth_wt1lt",
+    "name": "Time & Focus",
+    "flow": "Settings",
+    "section": "other-tabs",
+    "position": 26,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzM0MzU1MDgzZTIzMzMzZDkyZDAzOGZlMDlkOWYxNGJhMjZhNTJhZTMud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn0BqONzrgPlzx18iTttcoMEJe_P-lmBERg.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F4F4F2",
+    "colors": [
+      "#F4F4F2",
+      "#030202",
+      "#A7A8A8",
+      "#C1C1BE",
+      "#5F6168"
+    ],
+    "ui_elements": [
+      "Back Circle Button",
+      "Time Focus Title",
+      "Timezone Selectors",
+      "Quiet Hours Copy",
+      "Weekday Chips"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "extra1"
+  },
+  {
+    "screen_id": "oth_267dv",
+    "name": "Privacy Settings",
+    "flow": "Settings",
+    "section": "other-tabs",
+    "position": 27,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2M0OGJlNjIwZmM3ZmVkMDU0MmE1YjliODQwNjdhMmRmYmQ5NzNhNDcud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn1UKPs4QHVzEIQ_z-Tdyv3hOXOALJZ9duU.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F6F6F5",
+    "colors": [
+      "#F6F6F5",
+      "#020202",
+      "#A8A8A8",
+      "#2669BF",
+      "#C2C1BE"
+    ],
+    "ui_elements": [
+      "Back Circle Button",
+      "Privacy Title",
+      "Data Privacy Card",
+      "Model Improve Toggle"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "extra1"
+  },
+  {
+    "screen_id": "oth_7heb6",
+    "name": "Capabilities",
+    "flow": "Settings",
+    "section": "other-tabs",
+    "position": 28,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzA3MThlYTRiYTM0YTQzYzllMWE1MTQwZDI3MzY2MzlmZmM4ZTE4MDEud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn16Dd21o_qUUBcXhWoYHU-PQsQqCMldW9Y.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F7F7F6",
+    "colors": [
+      "#F7F7F6",
+      "#030202",
+      "#A7A7A7",
+      "#2669BF",
+      "#C2C1BE"
+    ],
+    "ui_elements": [
+      "Back Circle Button",
+      "Capabilities Title",
+      "Feature Toggle Rows",
+      "Beta Badge",
+      "Section Dividers"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "extra1"
+  },
+  {
+    "screen_id": "oth_9zxhx",
+    "name": "Connectors",
+    "flow": "Settings",
+    "section": "other-tabs",
+    "position": 29,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzRjNjk1ZTE4NzBiYzU4ZDI5NGE1MTU0M2YwNjNlNzAwNjRhZTk3ZWYud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn3i8BY5t4oo-dVof2vxy2dzkIecMxH--tI.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F6F6F4",
+    "colors": [
+      "#F6F6F4",
+      "#020202",
+      "#A4A4A6",
+      "#2669BF",
+      "#C1C0BE"
+    ],
+    "ui_elements": [
+      "Back Circle Button",
+      "Connectors Title",
+      "Add Circle Button",
+      "Discovery Toggle Card"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "extra1"
+  },
+  {
+    "screen_id": "oth_exvyu",
+    "name": "Connector Menu",
+    "flow": "Settings",
+    "section": "other-tabs",
+    "position": 31,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzM4MGY2ODA2MDQ1ZDk0MDEwMWU4NzA4ZmNiOWVlNGNmZjc5MGIwODAud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn3gGFPDLfFh6fvuN6kLtdsIUnZSpEYHjqk.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F5F5F4",
+    "colors": [
+      "#F5F5F4",
+      "#020202",
+      "#A7A7A7",
+      "#2669BF",
+      "#C1C1BE"
+    ],
+    "ui_elements": [
+      "Back Circle Button",
+      "Connector Toggle Card",
+      "Overflow Popover",
+      "Browse Connectors Row",
+      "Add Connector Row"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "extra1"
+  },
+  {
+    "screen_id": "oth_vd3d4",
+    "name": "Permissions",
+    "flow": "Settings",
+    "section": "other-tabs",
+    "position": 32,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2QyNjY2ODEwMjNmY2QzNzNkYTRmN2Q3ZGNlYTYxODgzMTJmNDU1N2Iud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn0HR_jHPjoK_zbM3TuOLqQx4HHzmt88Je8.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F7F7F5",
+    "colors": [
+      "#F7F7F5",
+      "#030303",
+      "#A1A2A5",
+      "#C3C1BD",
+      "#B3B7C4"
+    ],
+    "ui_elements": [
+      "Back Circle Button",
+      "Permissions Title",
+      "Permission List Rows",
+      "Status Labels",
+      "Chevron Indicators"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "extra1"
+  },
+  {
+    "screen_id": "oth_w8y2d",
+    "name": "Voice Settings",
+    "flow": "Settings",
+    "section": "other-tabs",
+    "position": 33,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzcwNmFlZGM5NmVhMzYxYjczYjNlZWNhZGRkZGQ1NjdhOTY2MWI0ZGIud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn0LC0pMSJ9fHtaZhRHYr08FM3APcS8_jkw.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#F6F5F4",
+    "colors": [
+      "#F6F5F4",
+      "#030302",
+      "#A2A2A3",
+      "#69708C",
+      "#ACB4C6"
+    ],
+    "ui_elements": [
+      "Back Circle Button",
+      "Voice Settings Title",
+      "Voice Carousel Cards",
+      "Pagination Dots",
+      "Language Row",
+      "Speed Row",
+      "Mode Choice Rows",
+      "Selected Checkmark"
+    ],
+    "app": {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic"
+    },
+    "group": "extra1"
+  },
+  {
+    "screen_id": "oth_i9lfd",
+    "name": "Navigation Drawer",
+    "flow": "Main Navigation",
+    "section": "other-tabs",
+    "position": 5,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzI0ODU3ODdhMjY0MjIwYmFkMDAxNTJmMDBlYzU3MzNhNzRiMWQ3ODMud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn0FLSl1wPRtBO9WuavsMdu22Ma6OmccTm0.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": [
+      "#FFFFFF",
+      "#F2F2F2",
+      "#2F2F2F",
+      "#8E8E93",
+      "#6C63FF"
+    ],
+    "ui_elements": [
+      "Sidebar List Menu",
+      "Selected Nav Row",
+      "Search Icon Button",
+      "Avatar Icon Button",
+      "Floating Chat CTA"
+    ],
+    "app": {
+      "app_id": "6448311069",
+      "name": "ChatGPT"
+    },
+    "group": "extra2"
+  },
+  {
+    "screen_id": "oth_r84qv",
+    "name": "Images Home",
+    "flow": "Main Navigation",
+    "section": "other-tabs",
+    "position": 8,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxL2EyZGZhY2QzYzljNTBiMWI1OWFkMmUwZDk0ZjFiMWJlMjdmNGQ2MmYud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn25WoDyv3_DYaD_rN1gkbvOYApasPnUGik.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": [
+      "#FFFFFF",
+      "#F4F4F4",
+      "#2F2F2F",
+      "#D9D9D9",
+      "#30C7E8"
+    ],
+    "ui_elements": [
+      "Centered Header",
+      "Image Prompt Cards",
+      "Horizontal Card Rail",
+      "Bottom Prompt Bar",
+      "Disabled Send Button"
+    ],
+    "app": {
+      "app_id": "6448311069",
+      "name": "ChatGPT"
+    },
+    "group": "extra2"
+  },
+  {
+    "screen_id": "oth_9bdxg",
+    "name": "Codex Setup",
+    "flow": "Main Navigation",
+    "section": "other-tabs",
+    "position": 9,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzE5NTQ5NDViNzczNTM4NTNiMTdjZTg1NDcyZDMwOTYxNzRlY2U4OTMud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn1hHghclwYmtmLiHURtMn-Y96KlshswKMs.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": [
+      "#FFFFFF",
+      "#F4F4F4",
+      "#2F2F2F",
+      "#000000",
+      "#6E6BFF"
+    ],
+    "ui_elements": [
+      "Centered Header",
+      "Codex Logo Tile",
+      "Centered Setup Copy",
+      "Black Primary CTA",
+      "Search Plus Bar"
+    ],
+    "app": {
+      "app_id": "6448311069",
+      "name": "ChatGPT"
+    },
+    "group": "extra2"
+  },
+  {
+    "screen_id": "oth_n8qod",
+    "name": "Library Empty State",
+    "flow": "Main Navigation",
+    "section": "other-tabs",
+    "position": 10,
+    "kind": "image",
+    "media_url": "https://mcp.appllama.io/media/AE57ImsiOiJvcmlnL3YxLzEwY2E4Nzg0MmM4ZTQ4OWJiMDI2NTZmOTZmMTEyZjExZGJmNzRjZjMud2VicCIsImV4cCI6MTc5MTQ4MjM1Nn2d7MfhLcaH01bgWLr4YrcKGxpJq1T4sKY.webp",
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "dominant_color": "#FFFFFF",
+    "colors": [
+      "#FFFFFF",
+      "#F4F4F4",
+      "#2F2F2F",
+      "#000000",
+      "#9B9B9B"
+    ],
+    "ui_elements": [
+      "Centered Header",
+      "Segmented Tabs",
+      "File Empty Icon",
+      "Black Primary CTA",
+      "Three Dot Button"
+    ],
+    "app": {
+      "app_id": "6448311069",
+      "name": "ChatGPT"
+    },
+    "group": "extra2"
+  }
+]
